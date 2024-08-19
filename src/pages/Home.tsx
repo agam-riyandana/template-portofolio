@@ -20,7 +20,7 @@ export const Home = () => {
         <h1 className="text-white font-extrabold text-4xl md:text-6xl">
           Agam Riyandana
         </h1>
-        <h2 className="text-red-700 font-bold text-xl md:text-3xl">
+        <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
           Content Creator
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
@@ -41,7 +41,7 @@ export const Home = () => {
         initial={wrapImg.initial}
         animate={wrapImg.animated}
         transition={wrapImg.transition}
-        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-red-700 to-red-700 to-black overflow-hidden"
+        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-emerald-500 via-emerald-900 to-black overflow-hidden"
       >
         <motion.img
           initial={image.initial}
