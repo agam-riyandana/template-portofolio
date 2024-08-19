@@ -12,22 +12,12 @@ export const Experience = () => {
     {
       id: 1,
       image: '/vite.svg',
-      name: 'X Code',
-      position: 'Frontend Developer',
-      startDate: 'Mar 2022',
+      name: 'AGAMRIYANDANA.MY.ID',
+      position: 'Owner',
+      startDate: '2022',
       endDate: 'Present',
       duration: '3 Months',
-      location: 'Jakarta',
-    },
-    {
-      id: 2,
-      image: '/vite.svg',
-      name: 'Y Code',
-      position: 'Backend Developer',
-      startDate: 'Mar 2021',
-      endDate: 'Februari 2022',
-      duration: '11 Months',
-      location: 'Bandung',
+      location: 'Jember',
     },
   ];
   return (
