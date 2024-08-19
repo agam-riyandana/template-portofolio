@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import {
+  IconBrandWhatsapp,
   IconBrandCampaignmonitor,
   IconBrandInstagram,
-  IconBrandLinkedin
+  IconBrandLinkedin,
+  IconHeadphones,
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
 import { SectionHeader } from '../components/SectionHeader';
@@ -15,24 +17,31 @@ export const Contact = () => {
   const contacts = [
     {
       id: 1,
+      name: 'Whatsapp',
+      image: <IconBrandWhatsapp style={iconStyles} />,
+      description: '-',
+      link: '/',
+    },
+    {
+      id: 2,
       name: 'Email',
       image: <IconBrandCampaignmonitor style={iconStyles} />,
       description: 'admin@agamriyandana.my.id',
       link: 'mailto:admin@agamriyandana.my.id',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Instagram',
       image: <IconBrandInstagram style={iconStyles} />,
       description: 'agam_riyandana1',
       link: 'https://www.instagram.com/agam_riyandana1',
     },
     {
-      id: 5,
+      id: 4,
       name: 'Linkedin',
       image: <IconBrandLinkedin style={iconStyles} />,
       description: 'agam-riyandana',
-      link: 'https://www.linkedin.com/in/agam-riyandana',
+      link: 'https://www.linkedin.com/in/agam-riyandana/',
     },
   ];
   return (
