@@ -12,12 +12,18 @@ export const Education = () => {
     {
       id: 1,
       image: '/vite.svg',
-      name: 'IPB University',
-      position: 'Bachelor Engineering',
-      startDate: 'Jan 2017',
+      name: 'SD Paket A',
+      startDate: 'Tahun 2016',
+      endDate: 'Jan 2018',
+      location: 'Jember',
+    },
+    {
+      id: 1,
+      image: '/vite.svg',
+      name: 'SMP Paket B',
+      startDate: 'Tahun 2020',
       endDate: 'Jan 2021',
-      duration: '4 years',
-      location: 'Bogor',
+      location: 'Jember',
     },
   ];
   return (
