@@ -23,7 +23,7 @@ export const Drawer = ({ onClick, links }: DrawerProps) => {
         className="flex justify-between font-bold text-lg mb-4 border-b border-white py-2 w-full"
       >
         <Link to="/" className="text-white hover:text-teal-500">
-          Bayu Setiawan
+          Agam Riyandana
         </Link>
         <IconX />
       </div>
