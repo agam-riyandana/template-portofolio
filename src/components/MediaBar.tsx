@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { MediaBarMotion } from '../common/motion/MediaBar';
 import {
   IconBrandCampaignmonitor,
-  IconBrandGithub,
   IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandWhatsapp,
@@ -11,19 +10,18 @@ import {
 
 export const MediaBar = () => {
   const media = [
-    { icon: <IconBrandGithub />, link: 'https://github.com/Bayusetiawan45' },
     {
       icon: <IconBrandLinkedin />,
       link: 'https://www.linkedin.com/in/bayu-setiawan99/',
     },
     {
       icon: <IconBrandInstagram />,
-      link: 'https://www.instagram.com/bayustr__/',
+      link: 'https://www.instagram.com/agam_riyandana1',
     },
     { icon: <IconBrandWhatsapp />, link: 'https://wa.me/+62887676546' },
     {
       icon: <IconBrandCampaignmonitor />,
-      link: 'mailto:bayusetiawanipb@gmail.com',
+      link: 'mailto:admin@agamriyandana.my.id',
     },
   ];
   const { container } = MediaBarMotion;
