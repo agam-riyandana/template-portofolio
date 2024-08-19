@@ -28,7 +28,7 @@ export const Header = () => {
           className="flex items-center space-x-2 font-bold text-md md:text-3xl text-teal-400"
         >
           <IconRobot width={35} height={35} />
-          <span>Bayu Setiawan</span>
+          <span>Agam Riyandana</span>
         </motion.div>
       </Link>
       <motion.nav
