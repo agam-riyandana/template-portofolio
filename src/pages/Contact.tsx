@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import {
   IconBrandCampaignmonitor,
   IconBrandInstagram,
-  IconBrandLinkedin,
+  IconBrandLinkedin
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
 import { SectionHeader } from '../components/SectionHeader';
