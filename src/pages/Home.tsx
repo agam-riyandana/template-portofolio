@@ -41,7 +41,7 @@ export const Home = () => {
         initial={wrapImg.initial}
         animate={wrapImg.animated}
         transition={wrapImg.transition}
-        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-red-700 via-emerald-900 to-black overflow-hidden"
+        className="flex flex-1 items-center justify-center bg-gradient-to-bl from-red-700 to-indigo-700 to-black overflow-hidden"
       >
         <motion.img
           initial={image.initial}
