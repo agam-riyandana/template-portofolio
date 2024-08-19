@@ -18,17 +18,15 @@ export const Home = () => {
           <div className="ml-1 animate-waving-hand">👋</div>
         </div>
         <h1 className="text-white font-extrabold text-4xl md:text-6xl">
-          Bayu Setiawan
+          Agam Riyandana
         </h1>
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
-          Software Engineer
+          Content Creator
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-          neque illo. Vel repudiandae culpa dolorum, accusantium odit rerum
-          commodi totam?
+          Agam, atau yang lebih dikenal dengan Agam Riyandana adalah seorang Content Creator Berkebangsaan Indonesia.
         </p>
-        <Link to="./Bayu-Setiawan-Frontend-Developer-CV.pdf" target="_blank">
+        <Link to="./" target="_blank">
           <motion.div
             initial={resume.initial}
             animate={resume.animated}
@@ -49,14 +47,14 @@ export const Home = () => {
           initial={image.initial}
           animate={image.animated}
           transition={image.transition}
-          src="/bayu-no-bg.webp"
+          src="/agampp.jpg"
           alt="profile"
           width="100%"
           height="100%"
         />
       </motion.div>
 
-      <LeaveCard label="Frontend Dev" />
+      <LeaveCard label="Content Creator" />
     </section>
   );
 };
