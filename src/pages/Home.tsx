@@ -47,7 +47,7 @@ export const Home = () => {
           initial={image.initial}
           animate={image.animated}
           transition={image.transition}
-          src="/agampp.jpg"
+          src="/agam.png"
           alt="profile"
           width="100%"
           height="100%"
