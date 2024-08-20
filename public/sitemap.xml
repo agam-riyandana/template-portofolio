@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
     <url>
         <loc>https://agamriyandana.my.id</loc>
         <lastmod>2022-12-10</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/about</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/skills</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.5</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/experience</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>2.0</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/education</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>2.5</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/portfolio</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>3.0</priority>
+    </url>
+    <url>
+        <loc>https://agamriyandana.my.id/contact</loc>
+        <lastmod>2022-12-10</lastmod>
+        <changefreq>always</changefreq>
+        <priority>3.5</priority>
     </url>
 </urlset>
