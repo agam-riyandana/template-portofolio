@@ -59,7 +59,7 @@
           "key": "x-authorized",
           "value": "true"
         }
-        },
+      ],
       "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }] }
       ]
     }
