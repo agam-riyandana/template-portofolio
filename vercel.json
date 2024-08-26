@@ -30,11 +30,15 @@
         },
         {
           "key": "referrer-policy",
-          "value": "no-referrer-when-downgrade"
+          "value": "strict-origin"
+        },
+        {
+          "key": "strict-transport-security",
+          "value": "max-age=31536000; includeSubDomains"
         },
         {
           "key": "permissions-policy",
-          "value": "geolocation=(self), microphone=()"
+          "value": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
         },
         {
           "key": "access-control-allow-origin",
@@ -59,8 +63,6 @@
           "key": "x-authorized",
           "value": "true"
         }
-      ],
-      "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }] }
       ]
     }
   ]
