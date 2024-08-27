@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Drawer } from './Drawer';
 import { INavLink } from '../types/common';
-import { inject } from "@vercel/analytics"
 
 export const Header = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
